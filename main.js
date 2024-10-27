@@ -14,8 +14,8 @@ const icons = {
   "Vehicle ran over a cyclist": L.IconMaterial.icon({
     icon: "directions_bike",
     iconColor: 'black',
-    markerColor: 'rgba(0,128,255,1)',
-    outlineColor: 'rgba(0,128,255,1)',
+    markerColor: 'rgba(25,181,254,1)',
+    outlineColor: 'rgba(25,181,254,1)',
     outlineWidth: 1,
     iconSize: [45, 51],
     iconAnchor: [22, 51],
