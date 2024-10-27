@@ -2,7 +2,7 @@ let map;
 
 const icons = {
   "Vehicle ran into an obstacle": L.IconMaterial.icon({
-    icon: "warning",
+    icon: "park",
     iconColor: 'black',
     markerColor: 'rgba(255,69,0,1)',
     outlineColor: 'rgba(255,69,0,1)',
@@ -32,7 +32,7 @@ const icons = {
     popupAnchor: [0, -50]
   }),
   "Other accidents": L.IconMaterial.icon({
-    icon: "report",
+    icon: "warning",
     iconColor: 'white',
     markerColor: 'rgba(128,128,128,1)',
     outlineColor: 'rgba(128,128,128,1)',
