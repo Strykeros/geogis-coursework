@@ -131,7 +131,7 @@ const initMap = () => {
 const loadData = (mapObj, existingLayers) => {
   let accidents = L.geoJSON(accidentData, {
     pointToLayer: function (feature, latlng) {
-      const icon = icons[feature.properties.accident_type] || icons["Citi negadījumi"];
+      const icon = icons[feature.properties.accident_type] || icons["Other accidents"];
       return L.marker(latlng, { icon: icon });
     },    
     onEachFeature: function (feature, layer) {
