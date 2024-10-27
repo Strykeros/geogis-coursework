@@ -1,0 +1,1399 @@
+const accidentData = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.355381005000083,
+                    57.93112023600008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 3,
+                "date": "18-05-2019",
+                "time": "10:58",
+                "accident_type": "Vehicle ran into an obstacle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.376190113000064,
+                    57.69526795100006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "28-09-2019",
+                "time": "20:26",
+                "accident_type": "Vehicle ran over a cyclist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.382378157000065,
+                    57.68439286500006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "29-08-2019",
+                "time": "08:50",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.534297889000072,
+                    57.59625230800003
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "02-04-2019",
+                "time": "07:40",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.682308579000047,
+                    57.40320346000004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "29-10-2019",
+                "time": "08:53",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.32722788500007,
+                    57.39284370200005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "08-06-2019",
+                "time": "15:00",
+                "accident_type": "Other accidents"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.47547135600007,
+                    57.32902392900007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "04-08-2019",
+                "time": "22:17",
+                "accident_type": "Vehicle ran into an obstacle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.676548443000055,
+                    57.25890761400007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "16-04-2019",
+                "time": "18:40",
+                "accident_type": "Vehicle ran into an obstacle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.366624177000062,
+                    57.25555148200005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "29-03-2019",
+                "time": "17:25",
+                "accident_type": "Vehicle ran into a parked vehicle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.426803022000055,
+                    57.24027406400006
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 0,
+                "date": "25-06-2019",
+                "time": "23:55",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.37964553200004,
+                    57.23486390600005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "30-07-2019",
+                "time": "15:31",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.281559792000053,
+                    57.20277360300008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "14-08-2019",
+                "time": "01:24",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.847656140000083,
+                    57.18301708000007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "15-11-2019",
+                "time": "08:52",
+                "accident_type": "Other accidents"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.924133304000065,
+                    57.176905282000064
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "16-10-2019",
+                "time": "19:46",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.32918604400004,
+                    57.16232337200007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "22-03-2019",
+                "time": "00:08",
+                "accident_type": "Vehicle ran over a cyclist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.69226689800007,
+                    57.16006161100007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "21-11-2019",
+                "time": "17:11",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.33801646900008,
+                    57.14155675600006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "23-06-2019",
+                "time": "02:42",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.61225757400007,
+                    57.10570573700005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "06-04-2019",
+                "time": "00:23",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.313655336000068,
+                    57.088605019000056
+                ]
+            },
+            "properties": {
+                "perished": 3,
+                "injured": 0,
+                "date": "13-10-2019",
+                "time": "10:20",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.33621840400008,
+                    57.07109744300004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "06-04-2019",
+                "time": "10:11",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.08018395500005,
+                    57.01211976900004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "19-04-2019",
+                "time": "18:34",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.113272081000048,
+                    56.99487395400007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 3,
+                "date": "26-01-2019",
+                "time": "12:34",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.93297136900009,
+                    56.97011451800006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "11-12-2019",
+                "time": "17:50",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.932693193000087,
+                    56.951932373000034
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "20-01-2019",
+                "time": "16:49",
+                "accident_type": "Vehicle ran over a cyclist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.382614801000045,
+                    56.94249223800006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "17-11-2019",
+                "time": "15:24",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.30712844000004,
+                    56.93419944000004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "10-01-2019",
+                "time": "07:50",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.143492762000047,
+                    56.92866516200007
+                ]
+            },
+            "properties": {
+                "perished": 4,
+                "injured": 2,
+                "date": "02-12-2019",
+                "time": "09:15",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.39127622800004,
+                    56.92576249500007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "17-11-2019",
+                "time": "20:56",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.915063419000088,
+                    56.92195578500008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "24-02-2019",
+                "time": "05:20",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.154556934000084,
+                    56.920392174000085
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "29-12-2019",
+                "time": "11:10",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.337190173000067,
+                    56.91452626300008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "05-01-2019",
+                "time": "17:48",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.605998295000063,
+                    56.90714431900005
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 2,
+                "date": "22-05-2019",
+                "time": "14:30",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.406623565000075,
+                    56.90075501900009
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "30-11-2019",
+                "time": "21:43",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.71677951400005,
+                    56.895298247000085
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "06-08-2019",
+                "time": "16:01",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.974392612000088,
+                    56.86544824200007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "25-11-2019",
+                "time": "07:50",
+                "accident_type": "Vehicle ran over a cyclist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.381852877000085,
+                    56.84602191600004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "09-11-2019",
+                "time": "06:50",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.290506247000053,
+                    56.834761668000056
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "11-05-2019",
+                "time": "21:14",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.535965276000073,
+                    56.81132943000006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "02-06-2019",
+                "time": "03:42",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.58163144900004,
+                    56.80695687600007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "10-09-2019",
+                "time": "10:20",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.66037997800004,
+                    56.76112858100004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "24-04-2019",
+                "time": "14:40",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.909116528000084,
+                    56.76086518900007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "06-09-2019",
+                "time": "03:37",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10947152300008,
+                    56.75808477200008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "20-05-2019",
+                "time": "16:32",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.37429516700007,
+                    56.74907790300006
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 2,
+                "date": "27-10-2019",
+                "time": "18:01",
+                "accident_type": "Vehicle ran over an animal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.717543245000055,
+                    56.74306554300006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 3,
+                "date": "03-04-2019",
+                "time": "09:30",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.473694639000087,
+                    56.72267825300008
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 0,
+                "date": "17-08-2019",
+                "time": "01:57",
+                "accident_type": "Vehicle ran into an obstacle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.111458325000054,
+                    56.71584241600005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "09-12-2019",
+                "time": "07:32",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.40697374800004,
+                    56.71267070900007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "02-12-2019",
+                "time": "15:54",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.26178862000006,
+                    56.70374405100006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "26-10-2019",
+                "time": "21:27",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.073057565000056,
+                    56.699248982000086
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "15-02-2019",
+                "time": "18:42",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.31888574200008,
+                    56.69902030300005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "10-11-2019",
+                "time": "00:00",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.458983594000077,
+                    56.687106602000085
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "13-11-2019",
+                "time": "13:57",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.35532676400004,
+                    56.63510683800007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 4,
+                "date": "18-06-2019",
+                "time": "17:02",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.33773396000004,
+                    56.62876737800008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 3,
+                "date": "23-01-2019",
+                "time": "20:37",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.45709144300008,
+                    56.62331729300007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "06-08-2019",
+                "time": "18:20",
+                "accident_type": "Vehicle ran over an animal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.349443713000085,
+                    56.60602199700008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "16-09-2019",
+                "time": "18:18",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.883459797000057,
+                    56.58964961600003
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "21-12-2019",
+                "time": "16:31",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.597224902000047,
+                    56.58900498200006
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 0,
+                "date": "08-08-2019",
+                "time": "13:30",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.139952387000047,
+                    56.57627219500006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 3,
+                "date": "03-10-2019",
+                "time": "10:39",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.22460861900004,
+                    56.55573838600009
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "09-06-2019",
+                "time": "14:46",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.198623446000056,
+                    56.53380536900005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "15-10-2019",
+                "time": "20:44",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.825158954000077,
+                    56.52914299900005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "26-07-2019",
+                "time": "00:07",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.507868650000034,
+                    56.51974805100008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "09-05-2019",
+                "time": "00:20",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.422452410000066,
+                    56.51504274300004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "26-11-2019",
+                "time": "16:54",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.543531365000035,
+                    56.42494542400004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "28-12-2019",
+                "time": "18:10",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.15245792500008,
+                    56.38907630300008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "17-03-2019",
+                "time": "12:30",
+                "accident_type": "Vehicle ran into an obstacle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.63801319400005,
+                    56.36894221700004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "09-02-2019",
+                "time": "19:03",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.175970092000057,
+                    56.357245701000075
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "30-09-2019",
+                "time": "21:16",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.152405542000054,
+                    56.35449497700006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "06-06-2019",
+                "time": "16:36",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.286643747000085,
+                    56.352945110000064
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "19-08-2019",
+                "time": "21:51",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.327791426000086,
+                    56.34493790900007
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "20-02-2019",
+                "time": "18:54",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.06763502300004,
+                    56.337167787000055
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "21-03-2019",
+                "time": "11:32",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.06833401900008,
+                    56.32494419500006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "23-03-2019",
+                "time": "15:50",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.34163670700008,
+                    56.303359672000056
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "06-11-2019",
+                "time": "18:32",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.346170835000063,
+                    56.29638371600004
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "12-02-2019",
+                "time": NaN,
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.035503374000086,
+                    56.235863022000046
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "21-10-2019",
+                "time": "14:33",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.308337762000065,
+                    56.212362504000055
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "25-03-2019",
+                "time": "16:34",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.407643178000058,
+                    56.18691587700005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "11-05-2019",
+                "time": "21:14",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.754874321000045,
+                    56.08825753500008
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 2,
+                "date": "14-05-2019",
+                "time": "08:59",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.896283064000045,
+                    56.06209639800005
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 1,
+                "date": "13-08-2019",
+                "time": "11:33",
+                "accident_type": "Vehicle flipped over"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.292879955000046,
+                    55.93196140100008
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 0,
+                "date": "03-03-2019",
+                "time": "21:30",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.716964791000063,
+                    55.93102924300007
+                ]
+            },
+            "properties": {
+                "perished": 2,
+                "injured": 1,
+                "date": "18-05-2019",
+                "time": "22:45",
+                "accident_type": "Collision"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.62153715300008,
+                    55.90058840000006
+                ]
+            },
+            "properties": {
+                "perished": 1,
+                "injured": 0,
+                "date": "13-07-2019",
+                "time": "00:08",
+                "accident_type": "Vehicle ran over a pedestrian"
+            }
+        }
+    ]
+}
